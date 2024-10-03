@@ -26,10 +26,13 @@ function App() {
 
   return (
     <>
+      
+
       <h1>Hello this is me !</h1>
       <h2>Counter Value: {counter}</h2>
       
       <button onClick={addValue}>Add Value</button>
+      <br/>
       <button onClick={RemoveValue}>Remove Value </button>
       <footer>footer: {counter}</footer>
     </>
